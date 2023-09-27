@@ -1,0 +1,27 @@
+{
+    "name": "ardistory/mvc-pzn",
+    "description": "Belajar MVC",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ardiansyah Putra",
+            "email": "putraardiansyah530@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ardiStory\\Php\\Mvc\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ardiStory\\Php\\Mvc\\": "test/"
+        }
+    },
+    "require": {
+        "php": ">=8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.3.2"
+    }
+}
